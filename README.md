@@ -1,6 +1,8 @@
 # Package Checker for ARM64 Compatibility
 
-This script checks if the installed packages on a given Ubuntu version have a compatible ARM64 version. It reads from a list of installed packages, makes HTTP requests to the Ubuntu package repository, and checks if the package exists for the selected architecture (ARM64).
+This script checks if the installed packages on a given Ubuntu setup will have a compatible ARM64 version. It is specially useful for the case you want to migrate a box to an ARM machine but you are not sure if all the packages you use will have a matching version for ARM 64. As it reads only for the official Ubuntu repositories, this script currently does not cover external repositories.
+
+It reads from a list of installed packages, makes HTTP requests to the Ubuntu package repository, and checks if the package exists for the selected architecture (ARM64).
 
 ## Features
 
