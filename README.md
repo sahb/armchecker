@@ -20,8 +20,8 @@ This script checks if the installed packages on a given Ubuntu version have a co
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/sahb/armchecker.git
+   cd armchecker
    ```
 
 2. Install the required Python libraries:
@@ -49,8 +49,10 @@ This script checks if the installed packages on a given Ubuntu version have a co
 2. **Run the script**:
    - Run the Python script and provide the path to the file containing the list of packages:
      ```bash
-     python check_arm64_packages.py
+     python arm64Checker.py
      ```
+3. **Inform the path to the file with the list of packages**
+   - From the instructions above, it will be `installed_packages.txt`
 
 3. **Select the Ubuntu version**:
    - The script will ask you to choose the Ubuntu version by presenting a list of available versions up to 24.04.
@@ -58,11 +60,5 @@ This script checks if the installed packages on a given Ubuntu version have a co
 4. **View results**:
    - The script will show the number of packages processed and list any packages that do not have an ARM64 version available.
 
-## Example
 
-```bash
-python check_arm64_packages.py
-```
-
-You will be asked to enter the path to the list of installed packages and select the Ubuntu version.
 
