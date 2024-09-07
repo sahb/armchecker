@@ -7,7 +7,6 @@ This script checks if the installed packages on a given Ubuntu version have a co
 - Checks if packages from Ubuntu repositories have ARM64 versions.
 - Allows the user to select the Ubuntu version they want to search in (up to Ubuntu 24.04).
 - Provides progress updates and only lists packages that do not have ARM64 versions.
-- ASCII art branding for **nuvoteq** at the start of the script.
 - Detailed instructions on generating the list of installed packages for use in the script.
 
 ## Requirements
